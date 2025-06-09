@@ -35,7 +35,7 @@ You have two options to begin:
 To make the most of this tutorial, we recommend:
 - Comfort with writing Python code
 - Completion of 1–2 beginner courses in machine learning or deep learning
-- Familiarity with PyTorch (for a refresher, see my [Beginner PyTorch Video](https://youtu.be/Z_ikDlimN6A?si=NIkrslkvHaNdlYgx))
+- Familiarity with PyTorch (for a refresher, see  [Beginner PyTorch Video](https://youtu.be/Z_ikDlimN6A?si=NIkrslkvHaNdlYgx))
 
 ---
 
