@@ -4,6 +4,8 @@
 
 # A Simple Local RAG Tutorial
 
+
+
 Welcome to this tutorial, where we’ll guide you through building a local Retrieval-Augmented Generation (RAG) pipeline! This workflow is designed to process documents, create embeddings, and enable search and answer functionalities—all running locally on an NVIDIA GPU. Here’s an overview of what we’ll create:
 
 ![Flowchart Description: "This flowchart illustrates a straightforward local Retrieval-Augmented Generation (RAG) workflow for document processing, embedding creation, and query handling. It begins with a collection of documents—such as PDFs or a 1200-page nutrition textbook—which are preprocessed into manageable chunks (e.g., groups of 10 sentences). These chunks serve as context for a Large Language Model (LLM). A curious user might ask, 'What are the macronutrients, and what do they do?' This query is transformed into a numerical representation using an embedding model, such as sentence transformers from Hugging Face, stored efficiently as a `torch.tensor`. For large datasets (e.g., 100k+ embeddings), a vector database or index may be employed. The query and relevant document passages are processed locally on an NVIDIA RTX 4090 GPU. The LLM generates a response based on the retrieved context, which can be accessed via an optional chat web app interface. The entire process leverages local GPU power. The flowchart includes icons for documents, processing steps, and hardware, with arrows guiding the flow from document ingestion to user interaction."](slrw.png)
