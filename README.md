@@ -1,7 +1,13 @@
-```markdown
-# NutriResearch - Nutrition Research Assistant
 
+# NutriResearch - Nutrition Research Assistant
+![](banner.png)
+## Sample Images
+!["image_one"](img1.png)
+!["image_two"](img2.png)
+!["image_three"](img3.png)
+```markdown
 A beautiful, responsive AI-powered Nutrition Research Assistant built with **HTML, CSS, JavaScript** and **FastAPI + LangChain + OpenAI**.
+
 
 ---
 
