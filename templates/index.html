@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Research Assistant</title>
+    
+    <!-- External CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <div class="max-w-4xl mx-auto h-screen flex flex-col">
+
+        <!-- Header -->
+        <header class="bg-white border-b border-gray-200 px-6 py-5 flex items-center justify-between shadow-sm">
+            <div class="flex items-center gap-3">
+                <div class="w-11 h-11 bg-emerald-600 rounded-2xl flex items-center justify-center text-3xl">
+                    🥗
+                </div>
+                <div>
+                    <h1 class="text-3xl font-bold text-gray-900 title-font">NutriResearch</h1>
+                    <p class="text-emerald-600 text-sm font-medium">Nutrition Research Assistant</p>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-4">
+                <div class="flex items-center bg-emerald-100 text-emerald-700 text-xs font-medium px-3 py-1.5 rounded-full">
+                    <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse mr-2"></div>
+                    ONLINE
+                </div>
+                <button onclick="clearChat()" 
+                        class="flex items-center gap-2 text-gray-500 hover:text-gray-700 px-4 py-2 rounded-xl hover:bg-gray-100 transition-colors">
+                    <i class="fas fa-trash"></i>
+                    <span class="font-medium">Clear Chat</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Chat Messages Area -->
+        <div id="chat-container" class="flex-1 overflow-y-auto p-6 space-y-6 bg-white">
+            <!-- Messages will be added here by JavaScript -->
+        </div>
+
+        <!-- Input Area -->
+        <div class="bg-white border-t border-gray-200 p-6">
+            <div class="max-w-3xl mx-auto">
+                <form id="chat-form" class="flex gap-3">
+                    <input 
+                        id="user-input"
+                        type="text"
+                        placeholder="Ask anything about nutrition... (e.g., benefits of intermittent fasting)"
+                        class="flex-1 bg-gray-100 border border-gray-300 focus:border-emerald-500 rounded-3xl px-6 py-4 outline-none text-gray-800 placeholder-gray-400"
+                    >
+                    <button 
+                        type="submit"
+                        class="bg-emerald-600 hover:bg-emerald-700 w-14 h-14 rounded-3xl flex items-center justify-center text-white transition-all active:scale-95">
+                        <i class="fas fa-paper-plane text-xl"></i>
+                    </button>
+                </form>
+                
+                <p class="text-center text-xs text-gray-400 mt-4">
+                    Powered by Human Nutrition Textbook • RAG System
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Your Custom JavaScript -->
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
