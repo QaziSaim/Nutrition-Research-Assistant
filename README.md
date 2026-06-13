@@ -119,9 +119,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🤝 Contributing
 
 Feel free to open issues and pull requests!
-
----
-
-**Made with ❤️ for nutrition enthusiasts**
-
-```
