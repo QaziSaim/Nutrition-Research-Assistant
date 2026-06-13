@@ -21,9 +21,9 @@ A beautiful, responsive AI-powered Nutrition Research Assistant built with **HTM
 ---
 
 ---
-## Demo
-!()[]
+## 🎥 Demo Video
 
+https://github.com/QaziSaim/Nutrition-Research-Assistant/blob/main/nra.mp4
 ## 🛠 Project Structure
 
 ```
