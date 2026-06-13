@@ -1,7 +1,3 @@
-**Here's a clean and professional `README.md` file for your project:**
-
----
-
 ```markdown
 # NutriResearch - Nutrition Research Assistant
 
@@ -23,7 +19,7 @@ A beautiful, responsive AI-powered Nutrition Research Assistant built with **HTM
 ---
 ## 🎥 Demo Video
 
-https://github.com/QaziSaim/Nutrition-Research-Assistant/blob/main/nra.mp4
+https://github.com/QaziSaim/Nutrition-Research-Assistant/blob/main/nra.mp4 
 ## 🛠 Project Structure
 
 ```
@@ -129,13 +125,3 @@ Feel free to open issues and pull requests!
 **Made with ❤️ for nutrition enthusiasts**
 
 ```
-
----
-
-### How to Use:
-
-1. Copy the entire content above
-2. Create a new file named **`README.md`** in your project root
-3. Paste the content and save
-
-Would you like me to also create a more **technical version** or a **shorter version** of the README?
